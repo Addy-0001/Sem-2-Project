@@ -1,1 +1,34 @@
 swastee car rental system 
+
+Adamya's Ideas: 
+1. Productivity Management System
+    Contains a authentication system, Note Taking Application, Timer for study/work time tracking,
+    A todo list interface, a monthly goals interface and a daily challenges field. 
+
+    Authentication System:
+        Users have to be authenticated and they should be linked such that a user can see their and only their
+        information(notes, challenges, monthly goals, so on). The password should be hashed so that even if the 
+        database is compromised, user's personal information won't be out in the open. 
+
+    Note Taking Application: 
+        Self explanatory for the most part. The user should be able to take notes within the applciation
+        and be able to save the notes to DATABASE as well as their PERSONAL COMPUTER. This is to ensure
+        multi level backup.
+
+    Timer: 
+        Self explanatory. Keep a timer that takes an integer input from the user and runs for the same
+        number of minutes.
+
+    To-Do list: 
+        Challenges to be set everyday by the users. These reset at the end of the day.
+
+    Daily Challenges; 
+        These don't reset at all. They appear on the todo list everyday automatically. 
+
+    Monthly Challenges
+        Same as todo list but these are more long term goals. They reset after 30 days of adding. 
+
+    Difference between todo list and daily challenges: 
+        The daily challenges are recurring but the todo list isn't. Meaning, 
+        the user will have to add new todo list content everyday but not daily challenges.
+        They are added automatically everyday. 
