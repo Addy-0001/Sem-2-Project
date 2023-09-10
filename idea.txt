@@ -33,9 +33,4 @@ Adamya's Ideas:
         the user will have to add new todo list content everyday but not daily challenges.
         They are added automatically everyday. 
         
-    Feedback and performance reviews:
-        Conduct regular performance reviews and provide construction feedback to help individuals and teams improve
-        their Productivity.
-
-    Collabration and Communication:
-        Foster effective Communication and Collabration within teams.
+    'pustakalaya' Library managemnet system
