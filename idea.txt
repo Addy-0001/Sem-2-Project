@@ -32,6 +32,10 @@ Adamya's Ideas:
         The daily challenges are recurring but the todo list isn't. Meaning, 
         the user will have to add new todo list content everyday but not daily challenges.
         They are added automatically everyday. 
-        Rahul
-        Aayash
-        Aarambha
+        
+    Feedback and performance reviews:
+        Conduct regular performance reviews and provide construction feedback to help individuals and teams improve
+        their Productivity.
+
+    Collabration and Communication:
+        Foster effective Communication and Collabration within teams and across the
