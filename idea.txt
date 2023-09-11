@@ -38,3 +38,17 @@ Adamya's Ideas:
 
     "ELECTRICITY BILLING SYSTEM" : SWASTEE
     "ONLINE RESUME BUILDER" : SWASTEE
+
+samman's Ideas:
+1 a freelancing website like fiver??? it may sound vast but it is quite simple i think we wont have to do much for the site what 
+we can indeed include in this app is:
+ *a way for users to login ofcourse 
+ *so there will be a homepage for the user to scroll thru the various freelancers in said site and purchase the help for their 
+ from the people who are willing to offer the help for a reasonable price ofcourse
+ * another page for them to like offer their expertise and add an price to it so that they can not only get help from others but also
+ offer it for a reasonable price ofcourse
+ *maybe we should add an option where users can ask their genre for help?? like if i need help regarding IT stuff then i filter out other
+ stuff except for the it ones and chose from there but doing this we will have to make it so that we add this 'genre' thing in the 
+ section where the users can offer their own help and well it might sound like an perfect ideal but it would be hell to code this idea up
+ * the problem with this idea is that it is quite complicated and well it is vast now that i thoink about it i must go back on my words 
+ here:) 
