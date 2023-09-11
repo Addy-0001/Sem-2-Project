@@ -34,3 +34,7 @@ Adamya's Ideas:
         They are added automatically everyday. 
         
     'pustakalaya' Library managemnet system
+
+
+    "ELECTRICITY BILLING SYSTEM" : SWASTEE
+    "ONLINE RESUME BUILDER" : SWASTEE
