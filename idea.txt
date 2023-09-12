@@ -52,4 +52,5 @@ we can indeed include in this app is:
  section where the users can offer their own help and well it might sound like an perfect ideal but it would be hell to code this idea up
  * the problem with this idea is that it is quite complicated and well it is vast now that i thoink about it i must go back on my words 
  here:) 
+ Rahul's Ideas:
  Attendence mangement system
