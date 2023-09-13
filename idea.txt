@@ -55,3 +55,13 @@ we can indeed include in this app is:
  Rahul's Ideas:
  Attendence mangement system
  
+ Aayash's idea:
+ Finance Tracking And Management System
+ Imagine having a desktop application that acts as your personal financial assistant , it would allow you to easily track your income and 
+ expenses, categorize your transactions and generate detailed reports.
+ FEATURES
+ 1. You can set budget goals
+ 2. Recieve notifications for upcoming bills
+ 3. Generate reports to visualize your financial progress
+ It would be a good tool to help you stay organized and work towards your financial goals, plus it would save you time and efforts by 
+ automating calculations and providing valuable insights to your spending patterns. 
