@@ -1,0 +1,16 @@
+public class User {
+    private String username;
+    private String password; // Hashed password
+
+    // Constructors, getters, setters
+
+    public void hashPassword() {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        this.password = passwordEncoder.encode(this.password);
+    }
+
+    public boolean verifyPassword(String rawPassword) {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        return passwordEncoder.matches(rawPassword, this.password);
+    }
+}
