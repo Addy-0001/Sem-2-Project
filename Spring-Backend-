@@ -1,0 +1,99 @@
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+public class User {
+    private String username;
+    private String password; // Hashed password
+
+    // Constructors, getters, setters
+
+    public void hashPassword() {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        this.password = passwordEncoder.encode(this.password);
+    }
+
+    public boolean verifyPassword(String rawPassword) {
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        return passwordEncoder.matches(rawPassword, this.password);
+    }
+}
+
+
+UserRepository:
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class UserRepository {
+    private Map<String, User> userDatabase = new HashMap<>();
+
+    public void addUser(User user) {
+        userDatabase.put(user.getUsername(), user);
+    }
+
+    public User getUserByUsername(String username) {
+        return userDatabase.get(username);
+    }
+}
+
+ AuthenticationService:
+
+public class AuthenticationService {
+    private UserRepository userRepository;
+
+    public AuthenticationService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public boolean authenticateUser(String username, String password) {
+        User user = userRepository.getUserByUsername(username);
+
+        if (user != null && user.verifyPassword(password)) {
+            // Authentication successful
+            return true;
+        }
+
+        // Authentication failed
+        return false;
+    }
+}
+
+ NoteTakingService:
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class NoteTakingService {
+    private Map<String, String> notesDatabase = new HashMap<>();
+
+    public void saveNote(String username, String note) {
+        notesDatabase.put(username, note);
+        // Save note to database or personal computer logic goes here
+    }
+
+    public String getNoteByUsername(String username) {
+        return notesDatabase.get(username);
+    }
+}
+
+ ChallengeService:
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ChallengeService {
+    private List<String> dailyChallenges = new ArrayList<>();
+    private List<String> monthlyChallenges = new ArrayList<>();
+
+    public ChallengeService() {
+        // Initialize challenges
+        // Populate daily and monthly challenges
+    }
+
+    public List<String> getDailyChallenges() {
+        return dailyChallenges;
+    }
+
+    public List<String> getMonthlyChallenges() {
+        return monthlyChallenges;
+    }
+}
